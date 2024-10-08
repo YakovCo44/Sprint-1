@@ -1,0 +1,119 @@
+body, html{
+    background-color: black;
+}
+
+h1{
+    color: #39FF14;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100px;
+    margin: 10px auto;
+}
+
+h3{
+    margin: 10px auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.easy{
+    background-color: #39FF14;
+    color: black;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    width: 100px;
+    border-radius: 30%;
+    border: none;
+}
+
+.easy:hover{
+    background-color: white;
+    color: #ff0000;
+}
+
+.intermediate{
+    background-color: #39FF14;
+    color: black;
+    margin: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30%; 
+    border: none;
+}
+
+.intermediate:hover{
+    background-color: white;
+    color: #ff0000;
+}
+
+.expert{
+    background-color: #39FF14;
+    color: black;
+    margin: 5px;
+    height: 50px;
+    width: 100px; 
+    border-radius: 30%;
+    border: none;
+}
+
+.expert:hover{
+    background-color: white;
+    color: #ff0000;
+}
+
+.lives{
+    color: #39FF14;
+    font-size: 50px;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.img-container:hover{
+    border-style: ridge;
+    border-radius: 20px;
+    border: #39FF14;
+}
+
+table{
+    margin: 20px auto;
+    
+}
+
+td{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px;
+    cursor: grab;
+    background-color: greenyellow;
+    transition: background-color 0.3s;
+}
+
+td:hover {
+    background-color: gray;
+}
+
+td.marked{
+    background-color: yellow;
+}
+
+td.mine {
+    background-color: red;
+    color: white;
+}
+
+td.zero-mines{
+    background-color: rgb(45, 245, 38);
+}
+
