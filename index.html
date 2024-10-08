@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="onKey(event)" onload="onInit()">
+    <h1>MineSweeper!</h1>
+    <div class="container">
+        <button class="easy" onclick="easyClick()" onload="onInit()">Easy</button>
+        <button class="intermediate" onclick="intermediateClick()" onload="onInit()">Intermediate</button>
+        <button class="expert" onclick="expertClick()" onload="onInit()">Expert</button>
+    </div>
+
+    <h3 class="lives"><span>3</span> lives left!</h3>
+    <div class="img-container" onclick="onInit()"><img src="img/ready.png" alt="ready to soldier emoji" style="border: 2px;
+    border-radius: 10px; width: 80px; height: auto;">
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
